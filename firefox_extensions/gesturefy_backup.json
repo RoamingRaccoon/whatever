@@ -529,6 +529,50 @@
           "focus": true
         }
       }
+    },
+    {
+      "pattern": [
+        [
+          238.5,
+          -30
+        ],
+        [
+          107.25,
+          39
+        ],
+        [
+          -249,
+          13.5
+        ],
+        [
+          269.25,
+          0
+        ]
+      ],
+      "command": {
+        "name": "PopupCustomCommandList",
+        "settings": {
+          "commands": [
+            {
+              "name": "CloseTab",
+              "settings": {
+                "nextFocus": "default",
+                "closePinned": true
+              }
+            },
+            {
+              "name": "CloseRightTabs"
+            },
+            {
+              "name": "CloseLeftTabs"
+            },
+            {
+              "name": "CloseOtherTabs"
+            }
+          ]
+        }
+      },
+      "label": "[Popup] Close tabs"
     }
   ],
   "Settings": {
